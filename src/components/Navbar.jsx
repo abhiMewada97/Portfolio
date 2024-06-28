@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import pic from '../../public/abhishek.jpg'
 import { FiMenu } from "react-icons/fi";
 import { IoCloseSharp } from "react-icons/io5";
+import { Link } from 'react-scroll';
 
 export default function Navbar() {
     const [menu, setMenu] = useState(false);
@@ -16,7 +17,7 @@ export default function Navbar() {
         },
         {
             id:3,
-            text:'Potfolio'
+            text:'Portfolio'
         },
         {
             id:4,
@@ -24,13 +25,13 @@ export default function Navbar() {
         },
         {
             id:5,
-            text:'Contacts'
+            text:'Contact'
         }
     ]
 
   return (
     <>
-        <div className='max-w-screen-2x1 container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-white'>
+        <div name='Navbar' className='max-w-screen-2x1 container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-white'>
             
             <div className='flex justify-between items-center h-16'>
                 <div className='flex space-x-2'>
@@ -45,7 +46,11 @@ export default function Navbar() {
                     <ul className='hidden md:flex space-x-8'>
                         {
                             navbarItems.map(({id, text})=>(
-                                <li className='hover:scale-110 duration-200 cursor-pointer' key={id}>{text}</li>
+                                <li className='hover:scale-110 duration-200 cursor-pointer' key={id}>
+                                    <Link to={text} smooth={true} duration={500} offset={-70} activeClass='active' >
+                                        {text} 
+                                    </Link> 
+                                </li>
                             ))
                         }
                     </ul>
@@ -58,11 +63,18 @@ export default function Navbar() {
             {/* Mobile Navbar */}
             <div>
                 {menu && (
-                    <ul className='md:hidden flex flex-col h-screen items-center justify-center space-y-2 text-xl'>
-                        {  navbarItems.map(({id, text})=>(
-                            <li className='hover:scale-110 duration-200 cursor-pointer font-semibold' key={id}>{text}</li>
-                        ))}
-                    </ul>
+                    <div className='bg-white'>
+                        <ul className='md:hidden flex flex-col h-screen items-center justify-center space-y-2 text-xl'>
+                            {  navbarItems.map(({id, text})=>(
+                                <li className='hover:scale-110 duration-200 cursor-pointer font-semibold' key={id}>
+                                    <Link to={text} smooth={true} duration={500} offset={-70} activeClass='active' 
+                                    onClick={()=>setMenu(!menu)}>
+                                        {text} 
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
                 )}
             </div>
         </div>

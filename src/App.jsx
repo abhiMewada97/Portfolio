@@ -4,6 +4,7 @@ import Home from "./components/Home"
 import About from "./components/About"
 import Portfolio from "./components/Portfolio"
 import Experiance from "./components/Experience"
+import Footer from "./components/Footer"
 
 export default function hh() {
   return (
@@ -13,6 +14,7 @@ export default function hh() {
       <About/>
       <Portfolio/>
       <Experiance/>
+      <Footer/>
     </>
   )
 }

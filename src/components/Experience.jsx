@@ -1,49 +1,52 @@
 import React from "react";
+import html from "../../public/html.png";
+import css from "../../public/css.jpg";
 import java from "../../public/java.png";
+import javascript from "../../public/javascript.png";
 import oracle from "../../public/oracle.png";
+import spring from "../../public/spring.png";
+import springBoot from "../../public/springBoot.jpg";
 
 export default function Experiance() {
-
-    const cardItem = [
-        {
-            id:1,
-            logo:java,
-            name:"java"
-        },
-        {
-            id:2,
-            logo:oracle,
-            name:"oracle"
-        },
-        {
-            id:3,
-            logo:java,
-            name:"java"
-        },
-        {
-            id:4,
-            logo:oracle,
-            name:"oracle"
-        },
-        {
-            id:5,
-            logo:java,
-            name:"java"
-        },
-        {
-            id:4,
-            logo:oracle,
-            name:"oracle"
-        },
-        {
-            id:5,
-            logo:java,
-            name:"java"
-        },
-    ];
-
-    return (
-        <div
+  const cardItem = [
+    {
+      id: 1,
+      logo: html,
+      name: "MongoDB",
+    },
+    {
+      id: 2,
+      logo: css,
+      name: "CSS",
+    },
+    {
+      id: 3,
+      logo: java,
+      name: "Java",
+    },
+    {
+      id: 4,
+      logo: javascript,
+      name: "JavaScript",
+    },
+    {
+      id: 5,
+      logo: oracle,
+      name: "Oracle",
+    },
+    {
+      id: 6,
+      logo: spring,
+      name: "Spring",
+    },
+    {
+      id: 7,
+      logo: springBoot,
+      name: "Spring Boot",
+    },
+  ];
+  return (
+    <div
       name="Experiance"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >

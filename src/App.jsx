@@ -2,7 +2,7 @@ import React from "react"
 import Navbar from "./components/Navbar"
 import Home from "./components/Home"
 import About from "./components/About"
-import Portfolio from "./components/Portfolio"
+import Projects from "./components/Projects"
 import Experiance from "./components/Experience"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
@@ -15,7 +15,7 @@ export default function hh() {
         <Navbar/>
         <Home/>
         <About/>
-        <Portfolio/>
+        <Projects/>
         <Experiance/>
         <Contact/>
         <Footer/>

@@ -49,23 +49,18 @@ export default function About() {
           <br />
           <br />
           <h1 className="text-green-600 font-semibold text-xl">
-            Professional Experience
+            Internship
           </h1>
           <span>
-            [Job Title], [Company/Organization], [Dates] [Brief description of
-            responsibilities and achievements] [Job Title],
-            [Company/Organization], [Dates] [Brief description of responsibilities
-            and achievements] [Freelance/Contract Work], [Client/Organization],
-            [Dates] [Brief description of projects and contributions]
-          </span>
-          <br />
-          <br />
-          <h1 className="text-green-600 font-semibold text-xl">
-            Achievements & Awards
-          </h1>
-          <span>
-            [Award/Recognition], [Organization/Institution], [Year] [Achievement],
-            [Organization/Platform], [Year]
+            <strong>
+            Web Dev Intern, @The Sparks Foundation, Oct 2022 - Nov 2022 Online <br/>
+            Task: ATM Machine <br/>
+            </strong>
+            •	Designed and built a secure ATM web app <br/>
+            •	Developed backend functionalities for ATM transactions <br/>
+            •	Engineered robust data validation and account management <br/>
+            •	Technology used: HTML, CSS Java Script, Node, Express, MongoDB <br/>
+
           </span>
         </div>
       </div>

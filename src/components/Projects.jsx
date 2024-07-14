@@ -9,30 +9,40 @@ export default function Projects() {
       id: 1,
       logo: reactjs,
       name: "Portfolio",
+      description: "",
+      video: "",
       sourseCodeLink: "https://github.com/abhiMewada97/Portfolio",
     },
     {
       id: 2,
       logo: mern,
       name: "Cozyabode",
+      description: "",
+      video: "",
       sourseCodeLink: "https://github.com/abhiMewada97/Cozyabode",
     },
     {
       id: 3,
       logo: reactjs,
       name: "Algorithm Visualizer",
+      description: "",
+      video: "",
       sourseCodeLink: "",
     },
     {
       id: 4,
       logo: reactjs,
       name: "React Weather App",
+      description: "",
+      video: "",
       sourseCodeLink: "https://github.com/abhiMewada97/React-Weather-App",
     },
     {
       id: 5,
       logo: javascript,
       name: "Snake Game",
+      description: "",
+      video: "",
       sourseCodeLink: "https://github.com/abhiMewada97/Snake-Game",
     },
   ];
@@ -45,7 +55,7 @@ export default function Projects() {
         <h1 className="text-3xl font-bold mb-5">Projects</h1>
         {/* <span className=" underline font-semibold">Projects</span> */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 my-5">
-          {cardItem.map(({ id, logo, name, sourseCodeLink }) => (
+          {cardItem.map(({ id, logo, name, description, sourseCodeLink }) => (
             <div
               className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-105 duration-300"
               key={id}
@@ -58,7 +68,7 @@ export default function Projects() {
               <div>
                 <div className="px-2 font-bold text-xl mb-2">{name}</div>
                 <p className="px-2 text-gray-700">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  {description}
                 </p>
               </div>
               <div className=" px-6 py-4 space-x-3 justify-around">

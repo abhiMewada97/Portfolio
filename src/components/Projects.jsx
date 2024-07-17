@@ -9,7 +9,7 @@ export default function Projects() {
       id: 1,
       logo: reactjs,
       name: "Portfolio",
-      description: "",
+      description: "Showcase my projects, skills, and achievements. The site features a clean, user-friendly, and responsive design for an enhanced user experience and is hosted on Netlify, demonstrating my web development skills",
       video: "",
       sourseCodeLink: "https://github.com/abhiMewada97/Portfolio",
     },
@@ -17,7 +17,7 @@ export default function Projects() {
       id: 2,
       logo: mern,
       name: "Cozyabode",
-      description: "",
+      description: "Facilitated property owner-traveler connections through an online marketplace by developing a full-stack website with MVC architecture, featuring a user-friendly, dynamic, and responsive JavaScript interface",
       video: "",
       sourseCodeLink: "https://github.com/abhiMewada97/Cozyabode",
     },
@@ -25,7 +25,7 @@ export default function Projects() {
       id: 3,
       logo: reactjs,
       name: "Algorithm Visualizer",
-      description: "",
+      description: "Designed visual representations of sorting techniques and created an intuitive user interface using React.js, enabling users to effortlessly explore and understand algorithmic intricacies through visualizations",
       video: "",
       sourseCodeLink: "",
     },
@@ -33,7 +33,7 @@ export default function Projects() {
       id: 4,
       logo: reactjs,
       name: "React Weather App",
-      description: "",
+      description: "Developed a React.js weather app with real-time updates and forecasts, integrating third-party APIs for accurate weather data, and implemented features for location-based weather tracking and alerts",
       video: "",
       sourseCodeLink: "https://github.com/abhiMewada97/React-Weather-App",
     },
@@ -41,7 +41,7 @@ export default function Projects() {
       id: 5,
       logo: javascript,
       name: "Snake Game",
-      description: "",
+      description: "Utilized HTML5 canvas for dynamic rendering and smooth animations, implementing user input handling, game logic, and collision detection to create an engaging gaming experience",
       video: "",
       sourseCodeLink: "https://github.com/abhiMewada97/Snake-Game",
     },
@@ -57,7 +57,7 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 my-5">
           {cardItem.map(({ id, logo, name, description, sourseCodeLink }) => (
             <div
-              className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-105 duration-300"
+              className="md:w-[300px] md:h-[400px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-105 duration-300"
               key={id}
             >
               <img

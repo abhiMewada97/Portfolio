@@ -35,11 +35,18 @@ export default function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+            Hey! I am a Computer Science & Engineering student at Sagar Institute of Science & Technology, Bhopal, with a solid academic record and a CGPA of 7.21. 
+            Passionate about both <b>frontend and backend development</b>, 
+            I has honed my skills in HTML, CSS, React, Node.js, and MySQL, among others. 
+            <br/><br/>
+            I has successfully completed various <b>projects</b>, such as developing a portfolio website, an online marketplace, and an algorithm visualizer, showcasing his adeptness in full-stack development and problem-solving. 
+            I also gained practical experience as a Web Development 
+            <br/>
+            <br/>
+            Currently <b>interning at IBM</b>, I am gaining valuable industry experience and further honing my technical expertise and,  
+            <b> Intern at The Sparks Foundation</b>, where I built a secure ATM web app and currently  
+            MY achievements include winning 1st place in a college coding contest and earning certifications in <b>Full Stack Development</b> and <b>Data Structures and Algorithms</b>. 
+            I am eager to contribute to dynamic work environments and further my professional growth.
             </p>
             <br />
             {/* social media icons */}

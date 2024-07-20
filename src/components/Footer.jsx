@@ -14,15 +14,14 @@ export default function Footer() {
           <div className=" flex flex-col items-center justify-center">
             
             <div className="flex space-x-4">
-              <FaFacebook size={24} />
-              <FaTwitter size={24} />
-              <FaInstagram size={24} />
-              <FaLinkedinIn size={24} />
+              <a href="https://x.com/abhi_mewada97" target="_blank"><FaTwitter size={24} /></a>
+              <a href="https://www.instagram.com/mr_abhishek_mewada__/" target="_blank"><FaInstagram size={24} /></a>
+              <a href="https://www.linkedin.com/in/abhishek-mewada/" target="_blank"><FaLinkedinIn size={24} /></a>
             </div>
             
             <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col items-center">
               <p className="text-sm">
-                &copy; 2024 Your Company. All rights reserved.
+                &copy; 2024 All rights reserved.
               </p>
               <p className="text-sm">Made with ❤️ by Abhishek</p>
             </div>

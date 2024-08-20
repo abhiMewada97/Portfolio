@@ -13,7 +13,7 @@ import java from "../../public/java.png";
 import dsa from "../../public/dsa.png";
 import typescript from "../../public/typescript.png";
 
-export default function Experiance() {
+export default function Experience() {
   const cardItem = [
     {
       id: 1,
@@ -97,7 +97,7 @@ export default function Experiance() {
   ];
   return (
     <div
-      name="Experiance"
+      name="Experience"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
       <div>

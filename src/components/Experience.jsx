@@ -11,6 +11,7 @@ import c from "../../public/c.png";
 import cpp from "../../public/cppa.png";
 import java from "../../public/java.png";
 import dsa from "../../public/dsa.png";
+import typescript from "../../public/typescript.png";
 
 export default function Experiance() {
   const cardItem = [
@@ -86,6 +87,12 @@ export default function Experiance() {
       logo: dsa,
       name: "DSA",
       sourseCodeLink: "https://github.com/abhiMewada97/Java-with-DSA",
+    },
+    {
+      id: 13,
+      logo: typescript,
+      name: "Typescript",
+      sourseCodeLink: "#",
     },
   ];
   return (

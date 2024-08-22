@@ -65,7 +65,7 @@ export default function Projects() {
       status: "upcoming",
       description: "Developed a wearable device to monitor stress and mood levels, aimed at reducing suicidal cases through real-time data analysis and intervention alerts ",
       projectLink: "#",
-      sourseCodeLink: "https://github.com/abhiMewada97/Snake-Game",
+      sourseCodeLink: "#",
     },
   ];
   return (

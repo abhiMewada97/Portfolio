@@ -49,18 +49,27 @@ export default function About() {
           <br />
           <br />
           <h1 className="text-green-600 font-semibold text-xl">
-            Internship
+            Internships
           </h1>
           <span>
             <strong>
-            Web Dev Intern, @The Sparks Foundation, Oct 2022 - Nov 2022 Online <br/>
+            Web Development Intern, @The Sparks Foundation, Oct 2022 - Nov 2022 <br/>
             Task: ATM Machine <br/>
             </strong>
             •	Designed and built a secure ATM web app <br/>
             •	Developed backend functionalities for ATM transactions <br/>
             •	Engineered robust data validation and account management <br/>
             •	Technology used: HTML, CSS Java Script, Node, Express, MongoDB <br/>
-
+          </span>
+          <br/>
+          <span>
+            <strong>
+            Web Development Intern, @IBM SkillsBuild Internship Program with CSRBOX, Jun 2024 – Aug 2024 <br/>
+            Task: Ocean Guardians <br/>
+            </strong>
+            •	Developed <strong>Ocean Guardians</strong> using React and MongoDB for marine conservation awareness <br/>
+            •	Implemented secure user authentication with JWT and bcrypt <br/>
+            •	Integrated APIs for real-time marine conservation data and volunteer opportunities <br/>
           </span>
         </div>
       </div>

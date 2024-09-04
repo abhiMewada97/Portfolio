@@ -50,6 +50,15 @@ export default function Projects() {
       sourseCodeLink: "https://github.com/abhiMewada97/React-Weather-App",
     },
     {
+      id: 7,
+      logo: " ",
+      name: "Virtual Herbal Garden",
+      status: "ongoing",
+      description: "Create a Virtual Herbal Garden that provides an interactive, educational, and immersive experience to users, showcasing the diverse range of medicinal plants used in AYUSH (Ayurveda, Unani, Siddha, and Homeopathy) ",
+      projectLink: "#",
+      sourseCodeLink: "#",
+    },
+    {
       id: 6,
       logo: javascript,
       name: "Snake Game",
@@ -57,15 +66,6 @@ export default function Projects() {
       description: "Utilized HTML5 canvas for dynamic rendering and smooth animations, implementing user input handling, game logic, and collision detection to create an engaging gaming experience",
       projectLink: "https://abhimewada97.github.io/Snake-Game/",
       sourseCodeLink: "https://github.com/abhiMewada97/Snake-Game",
-    },
-    {
-      id: 7,
-      logo: " ",
-      name: "Wearable Mood & Stress Monito",
-      status: "upcoming",
-      description: "Developed a wearable device to monitor stress and mood levels, aimed at reducing suicidal cases through real-time data analysis and intervention alerts ",
-      projectLink: "#",
-      sourseCodeLink: "#",
     },
   ];
   return (

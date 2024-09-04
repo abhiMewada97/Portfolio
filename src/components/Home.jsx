@@ -35,7 +35,7 @@ export default function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-            Hey! I am a Computer Science & Engineering student at Sagar Institute of Science & Technology, Bhopal, with a solid academic record and a CGPA of 7.21. 
+            Hey! I am a Computer Science & Engineering student at Sagar Institute of Science & Technology, Bhopal, with a solid academic record and a CGPA of 7.04. 
             Passionate about both <b>frontend and backend development</b>, 
             I has honed my skills in HTML, CSS, React, Node.js, and MySQL, among others. 
             <br/><br/>

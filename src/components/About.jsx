@@ -20,7 +20,7 @@ export default function About() {
           <span>
             Bachelor of Technology (2021-2025) <br/>
             <strong> College : </strong> Sagar Institute of Science & Technology, Bhopal <br/>
-            <strong> Steam : </strong> Computer Science & Engineering
+            <strong> Stream : </strong> Computer Science & Engineering
           </span>
           <br />
           <br />

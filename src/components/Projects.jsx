@@ -35,7 +35,7 @@ export default function Projects() {
       id: 4,
       logo: mern,
       name: "eLibrary with API Endpoint Integration",
-      status: "ongoing",
+      status: "complete",
       description: "Developed an eLibrary project with an endpoint to manage user requests efficiently, showcasing expertise in web development, API integration, and backend optimization",
       projectLink: "#",
       sourseCodeLink: "https://github.com/abhiMewada97/eLibrary",

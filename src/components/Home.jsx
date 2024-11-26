@@ -35,7 +35,7 @@ export default function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-            Hey! I am a Computer Science & Engineering student at Sagar Institute of Science & Technology, Bhopal, with a solid academic record and a CGPA of 7.04. 
+            Hey! I am a Computer Science & Engineering student at Sagar Institute of Science & Technology, Bhopal, with a solid academic record and a CGPA of 7.15. 
             Passionate about both <b>frontend and backend development</b>, 
             I has honed my skills in HTML, CSS, React, Node.js, and MySQL, among others. 
             <br/><br/>
@@ -43,10 +43,10 @@ export default function Home() {
             I also gained practical experience as a Web Development 
             <br/>
             <br/>
-            Currently <b>interning at IBM</b>, I am gaining valuable industry experience and further honing my technical expertise and,  
-            <b> Intern at The Sparks Foundation</b>, where I built a secure ATM web app and currently  
-            MY achievements include winning 1st place in a college coding contest and earning certifications in <b>Full Stack Development</b> and <b>Data Structures and Algorithms</b>. 
-            I am eager to contribute to dynamic work environments and further my professional growth.
+            Having completed an <b>IBM SkillsBuild Summer Internship with CSRBOX</b>, where I gained valuable industry experience and honed my technical expertise, 
+            and an internship at <b>The Sparks Foundation</b>, where I built a secure ATM web app, 
+            <b> my achievements</b> include winning <b>1st place</b> in a college coding contest and earning <b>certifications in Full Stack Development and Data Structures and Algorithms</b>. 
+            
             </p>
             <br />
             {/* social media icons */}

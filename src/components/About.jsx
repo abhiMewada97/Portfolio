@@ -64,7 +64,7 @@ export default function About() {
           <br/>
           <span>
             <strong>
-            Web Development Intern, @IBM SkillsBuild Internship Program with CSRBOX, Jun 2024 – Aug 2024 <br/>
+            Web Development Intern, @IBM SkillsBuild Summer Internship with CSRBOX, Jun 2024 – Aug 2024 <br/>
             Task: Ocean Guardians <br/>
             </strong>
             •	Developed <strong>Ocean Guardians</strong> using React and MongoDB for marine conservation awareness <br/>
